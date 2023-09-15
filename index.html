@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Streaaming Application</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main">
+    <div class="musicContainer">
+      <h2 id="title">Angreji beat</h2>
+       <h3 id="singer">Yo Yo Honey Singh</h3>
+       <div id="imgContainer">
+      <img src="/images/yoyo1.jpg" alt="">
+    </div>
+    <audio src="/musics/yoyo1.mp3"></audio>
+      <div class="controls">
+        <input id="progress" title="forward" type="range" min="0" max="10000" value="0">
+        <div class="buttons">
+        <i id="prev" class="fa-solid fa-backward" title="Previous"></i>
+        <i id="play" class="fa-solid fa-play" title="Play"></i>
+        <i id="next" class="fa-solid fa-forward" title="Next"></i>
+      </div>
+      </div> 
+    </div>
+  </div>
+   <script src="script.js"></script>
+  
+</body>
+</html>
